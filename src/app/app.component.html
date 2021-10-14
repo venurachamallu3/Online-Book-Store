@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="#" style="color:greenyellow;">Book Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/books-list" style="color:greenyellow;">Show Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/add-book" style="color:greenyellow;">Add Book</a>
+
+    </ul>
+
+    <!--
+      <span class="navbar-text text-bold"   style="color:white;" >
+        Developed by Tricon
+      </span>
+      -->
+
+  </div>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">VENU BOOK STORE </h1>
+      <img src="assets/book.jfif">
+      <img src="assets/book2.jpg" height="180px" width="300px">
+      <img src="assets/book3.jfif" height="180px" width="300px">
+    <!--<p class="lead">BOOK STORE </p>-->
+  </div>
+</div>
+<router-outlet></router-outlet>
